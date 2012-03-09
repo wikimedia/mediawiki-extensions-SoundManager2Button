@@ -51,6 +51,14 @@ $messages['dsb'] = array(
 	'soundmanager2button-play' => 'Wótegraś',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'soundmanager2button-desc' => 'Incorpora un reproductor de MP3 de SoundManager 2 en una página wiki',
+	'soundmanager2button-play' => 'Reproducir',
+);
+
 /** French (Français)
  * @author Seb35
  * @author Verdy p
