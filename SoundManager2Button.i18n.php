@@ -124,6 +124,14 @@ $messages['nl'] = array(
 	'soundmanager2button-play' => 'Afspelen',
 );
 
+/** Polish (Polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'soundmanager2button-desc' => 'Osadza odtwarzacz SoundManager 2 MP3 na stronie wiki',
+	'soundmanager2button-play' => 'Odtwórz',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
