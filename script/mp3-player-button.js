@@ -252,7 +252,7 @@ function BasicMP3Player() {
 var basicMP3Player = null;
 
 // use HTML5 audio for MP3/MP4, if available
-soundManager.preferFlash = false;
+soundManager.preferFlash = true;
 
 soundManager.onready(function() {
   // soundManager.createSound() etc. may now be called

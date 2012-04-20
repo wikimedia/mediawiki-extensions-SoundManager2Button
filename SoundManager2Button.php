@@ -60,7 +60,7 @@ $wgExtensionCredits['media'][] = array(
 	'author'         => 'kroocsiogsi',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SoundManager2Button',
 	'descriptionmsg' => 'soundmanager2button-desc',
-	'version'        => '0.3.1',
+	'version'        => '0.3.2',
 );
 
 $wgExtensionMessagesFiles['SoundManager2Button'] = dirname( __FILE__ ) . '/SoundManager2Button.i18n.php';
@@ -90,10 +90,12 @@ function wfSoundManager2Button( &$parser ) {
  * @param $input
  * @param $args
  * @param $parser Parser
+ * @param $frame PPFrame
  * @return string
  */
-function renderSM2( $input, $args, $parser ) {
+function renderSM2( $input, $args, $parser, $frame ) {
 	$parser->getOutput()->addModules( 'ext.wfSoundManager2Button' );
+	$input = $parser->recursiveTagParse( $input, $frame );
 
 	$file = wfFindFile($input);
 	$output = '';

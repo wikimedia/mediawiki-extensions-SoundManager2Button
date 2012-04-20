@@ -62,8 +62,8 @@
 a.sm2_button {
  position:relative;
  display:inline-block; /* If you worry about old browser bugs, Firefox 2 might not like this and may need -moz-inline-box instead. :D */
- width:18px;
- height:18px;
+ width:16px;
+ height:16px;
  text-indent:-9999px; /* don't show link text */
  overflow:hidden; /* don't draw inner link text */
  vertical-align:middle;
@@ -88,14 +88,14 @@ a.sm2_button:focus {
 
 a.sm2_button,
 a.sm2_button.sm2_paused:hover {
- background-color:#3399cc;
+ background-color:#333;
  background-image:url(../image/arrow-right-white.png);
  /* where possible, use data: and skip the HTTP request. Fancy-pants. Would use short-hand background: for above, but IE 8 doesn't override background-image. */
  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAYAAABmBXS+AAAAbklEQVQY02NgQAL//v1jZMAF/v//vwuIs9HEUBUBTbj4HwIeA3EGVsVAxtn/qOAVUGM8uknIiv4hsV8A5ZKxKfoLVvnvHwifAzLtMKwDSQLBVSBti27dJajkcSD2RJODO3wtkOOMz/tMSJJYAxMA5dmsL0IfubQAAAAASUVORK5CYII=);
  *background-image:url(../image/arrow-right-white.gif); /* IE 6+7 don't do DATA: URIs */
  background-repeat:no-repeat;
- background-position:5px 50%;
- *background-position:5px 4px; /* IE 6 again */
+ background-position:4px 50%;
+ *background-position:4px 3px; /* IE 6 again */
 }
 
 a.sm2_button:hover,
@@ -113,5 +113,5 @@ a.sm2_button.sm2_playing:hover {
 
 a.sm2_button.sm2_paused,
 a.sm2_button.sm2_paused:hover {
- background-color:#666;
+ background-color:#999;
 }
