@@ -100,6 +100,14 @@ $messages['ia'] = array(
 	'soundmanager2button-play' => 'Reproducer',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'soundmanager2button-desc' => 'ウィキページに SoundManager 2 MP3 プレイヤーを埋め込む',
+	'soundmanager2button-play' => '再生',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
