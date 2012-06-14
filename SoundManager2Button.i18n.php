@@ -20,7 +20,7 @@ $messages['qqq'] = array(
 	'soundmanager2button-play' => 'Play button text, primarily for screenreaders.',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -28,7 +28,7 @@ $messages['ast'] = array(
 	'soundmanager2button-play' => 'Reproducir',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -51,7 +51,7 @@ $messages['dsb'] = array(
 	'soundmanager2button-play' => 'Wótegraś',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -59,7 +59,7 @@ $messages['es'] = array(
 	'soundmanager2button-play' => 'Reproducir',
 );
 
-/** French (Français)
+/** French (français)
  * @author Seb35
  * @author Verdy p
  */
@@ -84,7 +84,7 @@ $messages['hsb'] = array(
 	'soundmanager2button-play' => 'Wothrać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
@@ -92,7 +92,7 @@ $messages['hu'] = array(
 	'soundmanager2button-play' => 'Lejátszás',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -123,7 +123,7 @@ $messages['lb'] = array(
 	'soundmanager2button-play' => 'Ofspillen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -140,7 +140,7 @@ $messages['nl'] = array(
 	'soundmanager2button-play' => 'Afspelen',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
