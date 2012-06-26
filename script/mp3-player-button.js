@@ -182,7 +182,7 @@ function BasicMP3Player() {
       } else {
         // different sound
         thisSound.togglePause(); // start playing current
-        sm._writeDebug('sound different than last sound: '+self.lastSound.sID);
+        sm._writeDebug('sound different than last sound: '+self.lastSound.id);
         if (self.lastSound) {
           self.stopSound(self.lastSound);
         }
@@ -216,9 +216,9 @@ function BasicMP3Player() {
   };
 
   this.stopSound = function(oSound) {
-    soundManager.stop(oSound.sID);
+    soundManager.stop(oSound.id);
     if (!isTouchDevice) { // iOS 4.2+ security blocks onfinish() -> playNext() if we set a .src in-between(?)
-      soundManager.unload(oSound.sID);
+      soundManager.unload(oSound.id);
     }
   };
 
@@ -252,7 +252,7 @@ function BasicMP3Player() {
 var basicMP3Player = null;
 
 // use HTML5 audio for MP3/MP4, if available
-soundManager.preferFlash = true;
+soundManager.preferFlash = false;
 
 soundManager.onready(function() {
   // soundManager.createSound() etc. may now be called
