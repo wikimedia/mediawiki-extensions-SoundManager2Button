@@ -43,7 +43,7 @@ $messages['de'] = array(
 	'soundmanager2button-play' => 'Abspielen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -68,7 +68,7 @@ $messages['fr'] = array(
 	'soundmanager2button-play' => 'Lecture',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -76,7 +76,7 @@ $messages['gl'] = array(
 	'soundmanager2button-play' => 'Reproducir',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
