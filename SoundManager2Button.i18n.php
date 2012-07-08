@@ -157,3 +157,11 @@ $messages['pms'] = array(
 	'soundmanager2button-play' => 'Fé parte',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'soundmanager2button-desc' => 'Nagbabaon ng isang pampaandar ng SoundManager 2 MP3 papasok sa loob ng isang pahina ng wiki',
+	'soundmanager2button-play' => 'Paandarin',
+);
+
