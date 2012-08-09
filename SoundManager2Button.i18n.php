@@ -157,6 +157,13 @@ $messages['pms'] = array(
 	'soundmanager2button-play' => 'Fé parte',
 );
 
+/** Portuguese (português)
+ * @author SandroHc
+ */
+$messages['pt'] = array(
+	'soundmanager2button-play' => 'Reproduzir',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
