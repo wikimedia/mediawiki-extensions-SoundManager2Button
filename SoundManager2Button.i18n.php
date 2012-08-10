@@ -59,6 +59,13 @@ $messages['es'] = array(
 	'soundmanager2button-play' => 'Reproducir',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'soundmanager2button-play' => 'پخش',
+);
+
 /** French (français)
  * @author Seb35
  * @author Verdy p
