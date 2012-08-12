@@ -171,6 +171,13 @@ $messages['pt'] = array(
 	'soundmanager2button-play' => 'Reproduzir',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'soundmanager2button-play' => 'වයන්න',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
