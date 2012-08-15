@@ -43,6 +43,13 @@ $messages['de'] = array(
 	'soundmanager2button-play' => 'Abspielen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'soundmanager2button-play' => 'Bıcın',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
