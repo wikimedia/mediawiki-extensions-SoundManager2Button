@@ -193,3 +193,10 @@ $messages['tl'] = array(
 	'soundmanager2button-play' => 'Paandarin',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'soundmanager2button-play' => 'کھیل',
+);
+
