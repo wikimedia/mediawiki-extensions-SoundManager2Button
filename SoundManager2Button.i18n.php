@@ -171,6 +171,13 @@ $messages['pms'] = array(
 	'soundmanager2button-play' => 'Fé parte',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'soundmanager2button-play' => 'غږول',
+);
+
 /** Portuguese (português)
  * @author SandroHc
  */
