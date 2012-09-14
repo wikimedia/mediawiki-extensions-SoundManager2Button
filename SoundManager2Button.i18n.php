@@ -130,6 +130,13 @@ $messages['ja'] = array(
 	'soundmanager2button-play' => '再生',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'soundmanager2button-play' => 'დაკვრა',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
