@@ -152,6 +152,14 @@ $messages['mk'] = array(
 	'soundmanager2button-play' => 'Пушти',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'soundmanager2button-desc' => 'Membenamkan pemain MP3 SoundManager 2 pada halaman wiki',
+	'soundmanager2button-play' => 'Mainkan',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
