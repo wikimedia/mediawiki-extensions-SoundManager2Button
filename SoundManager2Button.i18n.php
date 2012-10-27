@@ -137,6 +137,14 @@ $messages['ka'] = array(
 	'soundmanager2button-play' => 'დაკვრა',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'soundmanager2button-desc' => '위키 문서에 SoundManager 2 MP3 플레이어 포함',
+	'soundmanager2button-play' => '재생',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -221,4 +229,3 @@ $messages['tl'] = array(
 $messages['ur'] = array(
 	'soundmanager2button-play' => 'کھیل',
 );
-
