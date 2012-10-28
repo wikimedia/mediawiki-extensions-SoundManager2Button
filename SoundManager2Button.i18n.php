@@ -14,7 +14,8 @@ $messages['en'] = array(
 	'soundmanager2button-play' => 'Play',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ */
 $messages['qqq'] = array(
 	'soundmanager2button-desc' => '{{desc}}',
 	'soundmanager2button-play' => 'Play button text, primarily for screenreaders.',
