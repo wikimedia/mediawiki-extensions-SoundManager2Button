@@ -230,3 +230,11 @@ $messages['tl'] = array(
 $messages['ur'] = array(
 	'soundmanager2button-play' => 'کھیل',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'soundmanager2button-desc' => '嵌入SoundManager 2 MP3播放器到wiki页面',
+	'soundmanager2button-play' => '播放',
+);
