@@ -224,6 +224,13 @@ $messages['tl'] = array(
 	'soundmanager2button-play' => 'Paandarin',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'soundmanager2button-play' => 'Oynat',
+);
+
 /** Urdu (اردو)
  * @author පසිඳු කාවින්ද
  */
