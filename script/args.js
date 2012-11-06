@@ -1,2 +1,4 @@
-soundManager.url = mw.config.get( 'wgExtensionAssetsPath' ) +'/SoundManager2Button/swf/';
-soundManager.debugMode = false;
+soundManager.setup({
+	url: mw.config.get( 'wgExtensionAssetsPath' ) +'/SoundManager2Button/swf/',
+	debugMode: false,
+});
