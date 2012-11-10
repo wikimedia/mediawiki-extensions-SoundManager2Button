@@ -216,6 +216,13 @@ $messages['si'] = array(
 	'soundmanager2button-play' => 'වයන්න',
 );
 
+/** Tamil (தமிழ்)
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'soundmanager2button-play' => 'இயக்கு',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
