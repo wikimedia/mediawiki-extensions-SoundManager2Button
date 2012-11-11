@@ -91,6 +91,13 @@ $messages['gl'] = array(
 	'soundmanager2button-play' => 'Reproducir',
 );
 
+/** Hebrew (עברית)
+ * @author חיים
+ */
+$messages['he'] = array(
+	'soundmanager2button-play' => 'נגן',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
