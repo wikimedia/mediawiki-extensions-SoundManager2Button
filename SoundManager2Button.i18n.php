@@ -245,6 +245,14 @@ $messages['tr'] = array(
 	'soundmanager2button-play' => 'Oynat',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'soundmanager2button-desc' => 'Включає MP3-плеєр SoundManager 2 у вікісторінку',
+	'soundmanager2button-play' => 'Відтворити',
+);
+
 /** Urdu (اردو)
  * @author පසිඳු කාවින්ද
  */
