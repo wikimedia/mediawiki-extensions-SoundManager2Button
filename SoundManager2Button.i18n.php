@@ -223,6 +223,13 @@ $messages['si'] = array(
 	'soundmanager2button-play' => 'වයන්න',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'soundmanager2button-play' => 'Spela upp',
+);
+
 /** Tamil (தமிழ்)
  * @author மதனாஹரன்
  */
@@ -265,5 +272,12 @@ $messages['ur'] = array(
  */
 $messages['zh-hans'] = array(
 	'soundmanager2button-desc' => '嵌入SoundManager 2 MP3播放器到wiki页面',
+	'soundmanager2button-play' => '播放',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Shirayuki
+ */
+$messages['zh-hant'] = array(
 	'soundmanager2button-play' => '播放',
 );
