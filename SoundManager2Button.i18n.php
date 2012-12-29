@@ -15,9 +15,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'soundmanager2button-desc' => '{{desc}}',
+	'soundmanager2button-desc' => '{{desc|name=Sound Manager 2 Button|url=http://www.mediawiki.org/wiki/Extension:SoundManager2Button}}',
 	'soundmanager2button-play' => 'Play button text, primarily for screenreaders.',
 );
 
@@ -134,7 +135,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'soundmanager2button-desc' => 'ウィキページに SoundManager 2 MP3 プレイヤーを埋め込む',
+	'soundmanager2button-desc' => 'ウィキページに SoundManager 2 MP3 プレーヤーを埋め込む',
 	'soundmanager2button-play' => '再生',
 );
 
