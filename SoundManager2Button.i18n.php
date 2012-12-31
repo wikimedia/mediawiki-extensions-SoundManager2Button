@@ -224,6 +224,13 @@ $messages['pt'] = array(
 	'soundmanager2button-play' => 'Reproduzir',
 );
 
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'soundmanager2button-play' => 'Redare',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
