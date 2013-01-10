@@ -19,7 +19,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'soundmanager2button-desc' => '{{desc|name=Sound Manager 2 Button|url=http://www.mediawiki.org/wiki/Extension:SoundManager2Button}}',
-	'soundmanager2button-play' => 'Play button text, primarily for screenreaders.',
+	'soundmanager2button-play' => 'Play button text, primarily for screenreaders.
+{{Identical|Play}}',
 );
 
 /** Asturian (asturianu)
