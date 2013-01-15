@@ -60,7 +60,7 @@ $wgExtensionCredits['media'][] = array(
 	'author'         => 'kroocsiogsi',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SoundManager2Button',
 	'descriptionmsg' => 'soundmanager2button-desc',
-	'version'        => '0.3.3',
+	'version'        => '0.3.4',
 );
 
 $wgExtensionMessagesFiles['SoundManager2Button'] = dirname( __FILE__ ) . '/SoundManager2Button.i18n.php';
