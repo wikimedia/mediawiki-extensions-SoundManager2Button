@@ -232,6 +232,14 @@ $messages['ro'] = array(
 	'soundmanager2button-play' => 'Redare',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'soundmanager2button-desc' => "'Ngapsule 'nu esecutore SoundManager 2 MP3 jndr'à 'na pàgene uicchi",
+	'soundmanager2button-play' => 'Riproduce',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
