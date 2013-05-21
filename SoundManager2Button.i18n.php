@@ -162,6 +162,14 @@ $messages['ko'] = array(
 	'soundmanager2button-play' => '재생',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'soundmanager2button-desc' => 'Määd_et möjjelesch, dä <i lang="en">MP3</i>-Afschpeller <i lang="en">SoundManager 2</i> en de Wikisigge enzebädde.',
+	'soundmanager2button-play' => 'Afschpelle',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
