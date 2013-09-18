@@ -227,9 +227,19 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Cainamarques
  * @author SandroHc
  */
 $messages['pt'] = array(
+	'soundmanager2button-desc' => 'Incorpora o reprodutor de MP3 SoundManager 2 a uma página wiki',
+	'soundmanager2button-play' => 'Reproduzir',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'soundmanager2button-desc' => 'Incorpora o reprodutor de MP3 SoundManager 2 a uma página wiki',
 	'soundmanager2button-play' => 'Reproduzir',
 );
 
