@@ -258,6 +258,14 @@ $messages['roa-tara'] = array(
 	'soundmanager2button-play' => 'Riproduce',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'soundmanager2button-desc' => 'Встраивает SoundManager 2 MP3-плеер в вики-страницу',
+	'soundmanager2button-play' => 'Играть',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
