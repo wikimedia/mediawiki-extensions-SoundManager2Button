@@ -38,7 +38,7 @@ $messages['br'] = array(
 	'soundmanager2button-play' => 'Lenn',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
