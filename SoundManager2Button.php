@@ -28,7 +28,6 @@
 #   image/arrow-right-white.gif
 #   image/arrow-right-white.png
 #
-#   script/args.js
 #   script/mp3-player-button.js
 #
 #   script/soundmanager2.js
@@ -47,7 +46,7 @@
 # For debug mode:
 #   In $wgResourceModules: add css/debug.css
 #   In $wgResourceModules: replace script/soundmanager2-nodebug.js with script/soundmanager2.js
-#   In args.js           : toggle soundManager.debugMode = false;
+#   In mp3-player-button.js: toggle soundManager.debugMode = false;
 
 if ( !defined( 'MEDIAWIKI' ) ) {
 	echo "This is the SoundManager2Button MediaWiki extension. It cannot be run standalone.\n";
@@ -60,7 +59,7 @@ $wgExtensionCredits['media'][] = array(
 	'author'         => 'kroocsiogsi',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SoundManager2Button',
 	'descriptionmsg' => 'soundmanager2button-desc',
-	'version'        => '0.3.4',
+	'version'        => '0.3.5',
 );
 
 $wgExtensionMessagesFiles['SoundManager2Button'] = dirname( __FILE__ ) . '/SoundManager2Button.i18n.php';
@@ -68,7 +67,7 @@ $wgExtensionMessagesFiles['SoundManager2Button'] = dirname( __FILE__ ) . '/Sound
 $wgHooks['ParserFirstCallInit'][] = 'wfSoundManager2Button';
 
 $wgResourceModules['ext.wfSoundManager2Button'] = array(
-	'scripts' => array( 'script/soundmanager2-nodebug.js', 'script/mp3-player-button.js', 'script/args.js' ),
+	'scripts' => array( 'script/soundmanager2-nodebug.js', 'script/mp3-player-button.js' ),
 	'styles' => 'css/mp3-player-button.css',
 	'localBasePath' => dirname( __FILE__ ),
 	'remoteExtPath' => 'SoundManager2Button',

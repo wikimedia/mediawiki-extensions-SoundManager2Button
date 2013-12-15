@@ -251,10 +251,21 @@ function BasicMP3Player() {
 
 var basicMP3Player = null;
 
-// use HTML5 audio for MP3/MP4, if available
-soundManager.preferFlash = false;
+// This section is modified for SoundManager2Button.
 
-soundManager.onready(function() {
-  // soundManager.createSound() etc. may now be called
-  basicMP3Player = new BasicMP3Player();
-});
+window.onload = function() {
+  soundManager.setup({
+    url: mw.config.get( 'wgExtensionAssetsPath' ) +'/SoundManager2Button/swf/',
+    preferFlash: false,
+	debugMode: false,
+    onready: function() {
+      basicMP3Player = new BasicMP3Player();
+    },
+    defaultOptions: {
+      volume: 33
+    }
+  });
+
+  // ensure start-up in case document.readyState and/or DOMContentLoaded are unavailable
+  soundManager.beginDelayedInit();
+}
