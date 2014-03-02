@@ -77,9 +77,11 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'soundmanager2button-desc' => 'جاسازی یک سوند منجر ۲ ام‌پی‌۳ پلیر به صفحه ویکی',
 	'soundmanager2button-play' => 'پخش',
 );
 
