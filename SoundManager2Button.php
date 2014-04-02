@@ -1,5 +1,4 @@
 <?php
-
 # Initialization file for SoundManager2Button extension.
 #
 # @file SoundManager2Button.php
@@ -39,7 +38,7 @@
 #   swf/soundmanager2_debug.swf
 #   swf/soundmanager2_flash9.swf
 #   swf/soundmanager2_flash9_debug.swf
-# 
+#
 # To activate the extension:
 #   At the end of your LocalSettings.php: require_once("extensions/SoundManager2Button/SoundManager2Button.php");
 #
@@ -59,9 +58,10 @@ $wgExtensionCredits['media'][] = array(
 	'author'         => 'kroocsiogsi',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SoundManager2Button',
 	'descriptionmsg' => 'soundmanager2button-desc',
-	'version'        => '0.3.5',
+	'version'        => '0.4.0',
 );
 
+$wgMessagesDirs['SoundManager2Button'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SoundManager2Button'] = dirname( __FILE__ ) . '/SoundManager2Button.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfSoundManager2Button';
