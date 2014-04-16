@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "חיים"
-        ]
-    },
-    "soundmanager2button-play": "נגן"
+	"@metadata": {
+		"authors": [
+			"חיים"
+		]
+	},
+	"soundmanager2button-play": "נגן"
 }

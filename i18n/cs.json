@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vks"
-        ]
-    },
-    "soundmanager2button-play": "Přehrát"
+	"@metadata": {
+		"authors": [
+			"Vks"
+		]
+	},
+	"soundmanager2button-play": "Přehrát"
 }

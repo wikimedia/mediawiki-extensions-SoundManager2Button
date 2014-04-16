@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln"
-        ]
-    },
-    "soundmanager2button-desc": "Ermöglicht das Einbetten des MP3-Players SoundManager 2 in eine Wikiseite",
-    "soundmanager2button-play": "Abspielen"
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"soundmanager2button-desc": "Ermöglicht das Einbetten des MP3-Players SoundManager 2 in eine Wikiseite",
+	"soundmanager2button-play": "Abspielen"
 }

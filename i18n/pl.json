@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "BeginaFelicysym"
-        ]
-    },
-    "soundmanager2button-desc": "Osadza odtwarzacz SoundManager 2 MP3 na stronie wiki",
-    "soundmanager2button-play": "Odtwórz"
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym"
+		]
+	},
+	"soundmanager2button-desc": "Osadza odtwarzacz SoundManager 2 MP3 na stronie wiki",
+	"soundmanager2button-play": "Odtwórz"
 }

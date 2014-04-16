@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "soundmanager2button-play": "播放"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"soundmanager2button-play": "播放"
 }
