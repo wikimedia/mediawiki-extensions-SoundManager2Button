@@ -22,8 +22,10 @@
 #   css/mp3-player-button.css
 #   css/debug.css
 #
+#   image/arrow-right-black-2x.png
 #   image/arrow-right-black.gif
 #   image/arrow-right-black.png
+#   image/arrow-right-white-2x.png
 #   image/arrow-right-white.gif
 #   image/arrow-right-white.png
 #
@@ -58,7 +60,7 @@ $wgExtensionCredits['media'][] = array(
 	'author'         => 'kroocsiogsi',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SoundManager2Button',
 	'descriptionmsg' => 'soundmanager2button-desc',
-	'version'        => '0.4.0',
+	'version'        => '0.4.1',
 );
 
 $wgMessagesDirs['SoundManager2Button'] = __DIR__ . '/i18n';
