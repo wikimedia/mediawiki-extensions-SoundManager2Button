@@ -17,7 +17,6 @@
 # Required in $wgExtensionAssetsPath/SoundManager2:
 #
 #   SoundManager2Button.php
-#   SoundManager2Button.i18n.php
 #
 #   css/mp3-player-button.css
 #   css/debug.css
@@ -62,7 +61,6 @@ $wgExtensionCredits['media'][] = array(
 );
 
 $wgMessagesDirs['SoundManager2Button'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SoundManager2Button'] = dirname( __FILE__ ) . '/SoundManager2Button.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfSoundManager2Button';
 
