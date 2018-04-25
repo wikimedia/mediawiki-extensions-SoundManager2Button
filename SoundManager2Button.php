@@ -59,7 +59,7 @@ $wgExtensionCredits['media'][] = array(
 	'author'         => 'kroocsiogsi',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SoundManager2Button',
 	'descriptionmsg' => 'soundmanager2button-desc',
-	'version'        => '0.4.1',
+	'version'        => '0.4.2',
 );
 
 $wgMessagesDirs['SoundManager2Button'] = __DIR__ . '/i18n';
