@@ -48,6 +48,8 @@
 #   In $wgResourceModules: replace script/soundmanager2-nodebug.js with script/soundmanager2.js
 #   In mp3-player-button.js: toggle soundManager.debugMode = false;
 
+use MediaWiki\MediaWikiServices;
+
 if ( !defined( 'MEDIAWIKI' ) ) {
 	echo "This is the SoundManager2Button MediaWiki extension. It cannot be run standalone.\n";
 	die( -1 );
@@ -96,7 +98,12 @@ function renderSM2( $input, $args, $parser, $frame ) {
 	$parser->getOutput()->addModules( 'ext.wfSoundManager2Button' );
 	$input = $parser->recursiveTagParse( $input, $frame );
 
-	$file = wfFindFile($input);
+	if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
+		// MediaWiki 1.34+
+		$file = MediaWikiServices::getInstance()->getRepoGroup()->findFile($input);
+	} else {
+		$file = wfFindFile($input);
+	}
 	$output = '';
 	if( $file ) {
 		$url = $file->getFullURL();
