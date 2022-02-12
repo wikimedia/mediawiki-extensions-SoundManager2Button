@@ -95,7 +95,7 @@ function wfSoundManager2Button( &$parser ) {
  * @return string
  */
 function renderSM2( $input, $args, $parser, $frame ) {
-	$parser->getOutput()->addModules( 'ext.wfSoundManager2Button' );
+	$parser->getOutput()->addModules( [ 'ext.wfSoundManager2Button' ] );
 	$input = $parser->recursiveTagParse( $input, $frame );
 
 	if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
