@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"חיים"
+			"חיים",
+			"Amire80"
 		]
 	},
-	"soundmanager2button-play": "נגן"
+	"soundmanager2button-desc": "הטבעת נגן אם פי שלוש SoundManager 2 לתוך דף ויקי",
+	"soundmanager2button-play": "לנגן"
 }
