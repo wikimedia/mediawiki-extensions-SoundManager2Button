@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"soundmanager2button-desc": "ويکي مخ کې د اېم‌پي‌۳ غږوونکي SoundManager 2 ځای پرځای کوي",
 	"soundmanager2button-play": "غږول"
 }
