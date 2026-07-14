@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Ucukor"
 		]
 	},
-	"soundmanager2button-desc": "Убудоўвае MP3-прайгравальнік SoundManager 2 у вікістаронку",
+	"soundmanager2button-desc": "Укладае MP3-прайгравальнік SoundManager 2 у вікістаронку",
 	"soundmanager2button-play": "Граць"
 }
